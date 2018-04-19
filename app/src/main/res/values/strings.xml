@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="activity_details">Details</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--TODO: REPLACE MOVIE DB API KEY WITH YOUR KEY-->
+    <string name="themoviedb_api_key" translatable="false">YOUR_KEY</string>
+
+    <string name="themoviedb_movie_base_url" translatable="false">https://api.themoviedb.org/3/movie/</string>
+    <string name="themoviedb_poster_base_url" translatable="false">http://image.tmdb.org/t/p/</string>
+    <string name="youtube_videos_base_url" translatable="false">https://www.youtube.com/watch?v=</string>
+    <string name="youtube_video_thumbnail_base_url">http://img.youtube.com/vi/</string>
+
+    <string name="pref_filter_key" translatable="false">moviesfilter</string>
+    <string name="pref_filter_popular" translatable="false">popular</string>
+    <string name="pref_filter_toprated" translatable="false">top_rated</string>
+    <string name="pref_filter_favorites" translatable="false">favorites</string>
+
+
+    <string-array name="spinner_filter_options">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>Favorites</item>
+    </string-array>
+
+    <string name="sort">Sort</string>
+
+    <string name="action_favorite_title">Favorite</string>
+
+    <string name="content_description_poster">Movie poster</string>
+
+    <string name="empty_list_message_no_data">No results.</string>
+    <string name="empty_list_message_no_internet">No results.\nThe network is not available to fetch movies.</string>
+    <string name="empty_list_message_server_or_internet_issue">No results.\nOur server or your internet connection may be having some issues.</string>
+
+    <string name="empty_list_message_choose_movie">Choose a movie to see its details</string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">popularmovies.mistdev.com</string>
+    <string name="content_authority">com.mistdev.popularmovies</string>
+
+
+</resources>

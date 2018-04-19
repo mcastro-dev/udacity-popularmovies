@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/detail_content_margin">
+
+        <!--Poster-->
+        <ImageView
+            android:id="@+id/detail_movie_poster"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="2"/>
+
+        <!--Info-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="@dimen/detail_content_margin"
+            android:layout_marginStart="@dimen/detail_content_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detail_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detail_content_padding"
+                style="@style/TextAppearance.AppCompat.Headline"/>
+
+            <TextView
+                android:id="@+id/detail_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detail_content_padding"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/detail_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detail_content_padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
